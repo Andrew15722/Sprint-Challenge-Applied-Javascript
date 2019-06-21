@@ -45,7 +45,7 @@ An event listener is a a element we set to listen for specific events and fire c
 
 4. Why would we convert a NodeList into an Array?
 
-so you can use the array to iterate over and 
+Because you cannot use javascript methods on a nodelist, you would have to convert it to an array and then that javascript methods would work.
 
 5. What is a component?
 
